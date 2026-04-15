@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;700&display=swap');
+
+body,
+.wy-body-for-nav,
+.wy-nav-content,
+.wy-nav-side,
+.wy-menu-vertical a,
+[role="main"],
+h1, h2, h3, h4, h5, h6,
+p, li, td, th, a, span, div,
+code, pre,
+.md-content,
+.md-content * {
+    font-family: 'Pixelify Sans', sans-serif !important;
+}
+
+/* Scroll progress bar */
+#scroll-progress-bar {
+    position: fixed;
+    top: 56px; /* right below the navbar */
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background: linear-gradient(90deg, #ff6b6b, #feca57, #48dbfb, #ff9ff3);
+    z-index: 1031; /* above the navbar z-index */
+    transition: width 0.1s linear;
+    border-radius: 0 2px 2px 0;
+}

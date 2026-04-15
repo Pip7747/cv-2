@@ -1,0 +1,10 @@
+site_name: My Docs
+nav:
+  - Home: index.md
+  - Project Experience: project-experience.md
+  - Fun Stuff: fun-stuff.md
+extra_css:
+  - css/custom.css
+extra_javascript:
+  - js/scroll-progress.js
+  
