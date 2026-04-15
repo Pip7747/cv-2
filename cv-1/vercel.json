@@ -7,8 +7,5 @@
         "distDir": "site"
       }
     }
-  ],
-  "scripts": {
-    "build": "mkdocs build"
-  }
+  ]
 }
