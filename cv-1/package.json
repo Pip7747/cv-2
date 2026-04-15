@@ -2,6 +2,8 @@
   "name": "cv-1",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdocs build"
+    "build": "mkdocs build",
+    "install-mkdocs": "pip install mkdocs && mkdocs build"          
   }
+  
 }
